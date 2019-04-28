@@ -36,7 +36,7 @@ if ($moveResult != true) {
 }
 unlink($fileTmpLoc); // Remove the uploaded file from the PHP temp folder
 // ---------- Include Universal Image Resizing Function --------
-include_once("ak_php_img_lib_1.0.php");
+include_once("resize-img.php");
 $target_file = "uploads/$fileName";
 $resized_file = "uploads/resized_$fileName";
 $wmax = 200;
